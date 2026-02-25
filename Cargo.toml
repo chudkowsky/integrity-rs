@@ -15,13 +15,13 @@ exclude = [".github/**"]
 [dependencies]
 starknet-core = { version = "0.16.0", default-features = false }
 starknet-crypto = { version = "0.8.1", default-features = false }
-swiftness = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
-swiftness_air = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
-swiftness_commitment = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
-swiftness_fri = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
-swiftness_pow = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
-swiftness_stark = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
-swiftness_transcript = { git = "https://github.com/chudkowsky/swiftness", rev = "e07d185", default-features = false }
+swiftness = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
+swiftness_air = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
+swiftness_commitment = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
+swiftness_fri = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
+swiftness_pow = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
+swiftness_stark = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
+swiftness_transcript = { git = "https://github.com/chudkowsky/swiftness", rev = "2a4ef395ececc0f8d315695661b0bd4ad7b54aef", default-features = false }
 
 [dev-dependencies]
 starknet-macros = { version = "0.2.1", default-features = false, features = ["use_imported_type"] }

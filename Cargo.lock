@@ -949,7 +949,7 @@ checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
 [[package]]
 name = "swiftness"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "clap",
  "starknet-core 0.16.0",
@@ -964,7 +964,7 @@ dependencies = [
 [[package]]
 name = "swiftness_air"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "num-bigint",
  "serde",
@@ -981,7 +981,7 @@ dependencies = [
 [[package]]
 name = "swiftness_commitment"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "blake2",
  "num-bigint",
@@ -999,7 +999,7 @@ dependencies = [
 [[package]]
 name = "swiftness_fri"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "num-bigint",
  "serde",
@@ -1016,7 +1016,7 @@ dependencies = [
 [[package]]
 name = "swiftness_pow"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "blake2",
  "serde",
@@ -1031,7 +1031,7 @@ dependencies = [
 [[package]]
 name = "swiftness_proof_parser"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "anyhow",
  "clap",
@@ -1039,15 +1039,15 @@ dependencies = [
  "regex",
  "serde",
  "serde_json",
- "starknet-crypto 0.7.4",
- "starknet-types-core 0.1.7",
+ "starknet-crypto 0.8.1",
+ "starknet-types-core 0.2.4",
  "thiserror",
 ]
 
 [[package]]
 name = "swiftness_stark"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "serde",
  "serde_with",
@@ -1065,7 +1065,7 @@ dependencies = [
 [[package]]
 name = "swiftness_transcript"
 version = "1.0.0"
-source = "git+https://github.com/chudkowsky/swiftness?rev=e07d185#e07d18596d410546c582eb25c8101100956a3229"
+source = "git+https://github.com/chudkowsky/swiftness?rev=2a4ef395ececc0f8d315695661b0bd4ad7b54aef#2a4ef395ececc0f8d315695661b0bd4ad7b54aef"
 dependencies = [
  "starknet-crypto 0.8.1",
 ]
